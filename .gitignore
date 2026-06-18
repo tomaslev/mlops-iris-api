@@ -1,0 +1,30 @@
+# --- Secrets / TLS ---
+*.key
+*.pem
+*.crt
+*.csr
+.env
+*.env
+
+# keep the certs directory in the repo but ignore its contents
+deployments/nginx/certs/*
+!deployments/nginx/certs/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- ML artifacts (optional — uncomment if you don't want models tracked) ---
+# *.pkl
+# *.joblib
+# models/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/

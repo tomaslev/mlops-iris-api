@@ -6,4 +6,4 @@
         static_configs:
           # Cible à scraper : l'exporter Nginx
           - targets: ['nginx_exporter:9113']
-    
+
